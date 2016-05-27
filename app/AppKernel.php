@@ -24,6 +24,7 @@ class AppKernel extends Kernel
             new CodeExplorerBundle\CodeExplorerBundle(),
             new AppBundle\AppBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
+            new Scourgen\WebBundle\ScourgenWebBundle(),
         );
 
         // Some bundles are only used while developing the application or during
